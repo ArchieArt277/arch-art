@@ -1,0 +1,433 @@
+/* basis styles */
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gold;
+    width: 80%;
+    height: auto;
+}
+
+}
+
+/* menu style */
+.menu{
+    background-image: image(lides-1.jpg);
+    overflow: hidden;
+    border-bottom: solid thick ::-webkit-meter-even-less-good-value;
+    transition: 0.6s ease;
+    
+
+}
+/* menu link style*/
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+    padding: 16px 14px;
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+{
+/* menu link hover style*/
+.menu a:hover{
+    background-color: black;
+    color:white;
+
+}
+
+
+body{
+    background-image:linear-gradient(rgba(247, 204, 12, 0.795).5),rgba(247, 204,  12, 0.795)), url(..image lades-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+
+}
+
+}
+h{
+    color: gold;
+    
+
+}
+h6{
+  color:gold;
+  font-size: 60px;
+  
+}
+
+p{
+    color: gold snow;
+    font-size: 20px;
+    
+}
+
+p1{
+  color: rgb(255, 215, 0)
+  
+  
+}
+
+p2{
+  color: rgb(255, 215, 0)
+  
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  font-size: 12px;
+  background-color: gold;
+  border: none;
+  border-radius: 10px;
+  margin: bottom 10px; ;
+  margin-left: 20px;
+  cursor: pointer;
+  
+  
+}
+content.cn a{
+  text-decoration: none;
+  color: gold;
+  transition: 3s ease;
+}
+
+.cn:hover{
+ background-color: black;
+ color: rgb(255, 215, 0);
+}
+
+
+/*cardstyle*/
+.card1{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-image: url(..home.JPG);
+    background-size: cover;
+}
+.card2{
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-image: url(..ladies.jpg);
+    background-size: cover;
+}
+.card3{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-image: url(..water.jpg);
+    background-size: cover;
+}
+.card4{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-image: url(..iron.jpg);
+    background-size: cover;
+  
+}
+.card1:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+
+.card2:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+.card3:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+.card4:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+h5{
+    color:white;
+    text-shadow: o o 5px rgb(214, 189, 189);
+    font-size: 12px;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+
+/* service style begin*/
+
+.service {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  
+  top: 4rem;
+  margin-bottom: 5rem;
+  height: 100%;
+}
+/* service boxes style */
+.product_box {
+  height: 18rem;
+  width: 20rem;
+
+  border-top-right-radius: 2rem;
+}
+
+
+  
+/* box heading style */
+.service_head {
+  width: auto;
+  height: 4rem;
+  background-color: gold;
+  position: relative;
+  bottom: 1.3rem;
+  border-top-right-radius: 2rem;
+  border-bottom: solid thick goldrgb(225,215,0);
+  overflow: hidden;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(194, 167, 16);
+}
+
+.service_head h2 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* box image style */
+.service_image {
+  position: relative;
+  overflow: hidden;
+  bottom: 1.3rem;
+}
+.S_image {
+  height: 11rem;
+  width: 20rem;
+}
+/* service style end */
+
+/* contact Content section */
+.contact {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+/* contact form */
+.contact_form {
+  background-color: transparent;
+  height: auto;
+  width: 50%;
+  padding: 2rem;
+}
+/* contact box style */
+.contact_box {
+  text-align: left;
+  width: 70%;
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  margin: 4rem;
+  color: white;
+  border-top: solid thick rgb(185, 90, 106);
+  border-bottom: solid thick rgb(143, 76, 87);
+}
+/* input text area */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: whitesmoke;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: 18px;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: black;
+}
+input:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+.contact_form h1 {
+  text-align: center;
+}
+.contact_info h1 {
+  text-align: center;
+}
+/* contact info */
+.contact_info {
+  background-color:  rgb(245, 245, 245);
+  height: auto;
+  width: 50%;
+  padding: 2rem;
+  overflow: hidden;
+}
+/* contact image section */
+.contact_image .contact_photo {
+  width: 960px;
+  height: 30rem;
+  padding-top: 4rem;
+}
+  /* team section  */
+.team {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+/* showcase boxes style */
+.team_box {
+  height: 24rem;
+  width: 20rem;
+  background-color:rgb(148, 75, 87);
+  border-top-right-radius: 4rem;
+}
+
+/* box heading style */
+.team_head {
+  width: auto;
+  height: 4rem;
+  background-color:gold;
+  position: relative;
+  bottom: 1.3rem;
+  /* border-bottom: solid thick gold; */
+  overflow: hidden;
+}
+.team_head h2 {
+  color: gold;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team_box .team_name {
+  background-color:gold;
+  height: 5rem;
+  text-align: center;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
+  bottom: 1rem;
+  text-transfor;
+
+/*Gallary image style */
+  .team-image {
+    position: relative;
+    overflow: hidden; 
+  }
+  .t_image {
+    height: 700px;
+    width: 400px;
+    padding: 0%;
+    object-fit: none;
+    box-sizing: border-box;
+  }
+
+/* box image style */
+.team_image {
+  position: relative;
+  overflow: hidden;
+}
+.t_image {
+  height: 100px;
+  width: 400px;
+  padding: 0px
+  object-fit: none;
+  box-sizing: border-box;
+}
+
+.btn button {
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  color:black;
+}
+/* button hover style */
+.btn button:hover {
+  background-color:gold;
+  color: white;
+  position: relative;
+}
+
+
+  /* footer  style */
+footer {
+    display: flex;
+    position: center;
+    overflow: ;
+    background-color:;
+    justify-content: space-evenly;
+    float: left;
+  }
+
+  /* footer area boxes */
+.footer_area {
+    height: 14rem;
+    width: 18rem;
+    color: white;
+    margin: 1rem;
+    padding-top: 3rem;
+  }
+  .footer_area h3 {
+    text-decoration: underline;
+    color:gold
+  }
